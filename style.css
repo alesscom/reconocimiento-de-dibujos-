@@ -1,0 +1,26 @@
+body{
+    background-color: greenyellow;
+}
+h1{
+    color: blueviolet;
+    background-color: yellow;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: ejemplo;
+    animation-duration: 4s;
+    margin-top: 300px;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 380px yellow;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
